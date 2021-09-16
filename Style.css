@@ -201,11 +201,25 @@ h4{
 
 .Movies{
 display: flex;
-
+flex-direction: column;
 }
 
-figure{
+article{
+display: flex;
+flex-direction: row;
 
+}
+.Synopsis{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 80%;
+}
+
+
+
+figure{
+/*
   display: flex;
 
   justify-content: flex-start;
@@ -214,4 +228,4 @@ figure{
 article{
   display: flex;
   justify-content: flex-end;
-}
+}*/
